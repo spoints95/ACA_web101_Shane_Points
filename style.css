@@ -3,11 +3,12 @@ body {
     background-image: url(./myBackground.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100%;
   }
   /* What kind of selector is this? */
   .logo {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     margin: 3% 10%;
     background-color: white;
     border: 1px solid transparent;
@@ -54,12 +55,13 @@ body {
     border-radius: 25px;
     border: 2px solid black;
     background-color: #0D1320;
+    padding: 10px;
     padding: 20px;
     color: gold;
   }
  #aboutme-pic {
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     margin: 5% auto;
     grid-column: 2/3;
@@ -96,15 +98,16 @@ body {
     grid-column: 2/3;
     color: white;
     font-size: 10px;
-    margin: 3% auto;
-    ;
+    margin: auto;
+    margin-top: 15%;
+    
   }
   p {
     color: black;
     text-align: center;
     margin: auto;
     width: 100%;
-    height: 100%;
+    height: 95%;
     padding: 5px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     grid-column: 2/3;
@@ -115,7 +118,7 @@ body {
 
   button {
     grid-column: 2/3;
-    margin: 3% auto;
+    margin: auto;
     width: 70%;
     height: 15%;
     font-family: Georgia, 'Times New Roman', Times, serif;
