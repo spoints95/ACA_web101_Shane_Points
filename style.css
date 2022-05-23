@@ -142,4 +142,25 @@ body {
   a:link {
     text-decoration: none;
   }
- 
+ .github-image {
+   height: 100px;
+   width: 100px;
+ }
+ .contact {
+   grid-column: 2/3;
+   text-align: center;
+  border-radius: 25px;
+  border: 2px solid black;
+  background-color: gold;
+  padding: 10px;
+  padding: 20px;
+  color: black;
+ }
+ .contactme {
+  border-radius: 25px;
+  border: 2px solid black;
+  background-color: #0D1320;
+  padding: 10px;
+  padding: 20px;
+  color: gold;
+ }
